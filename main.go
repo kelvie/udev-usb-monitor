@@ -25,7 +25,7 @@ func runcmd(cmdStr string) {
 
 func main() {
 	usbvendor := flag.String("v", "0bda", "usb vendor")
-	usbproduct := flag.String("p", "0411", "usb product")
+	usbproduct := flag.String("p", "5401", "usb product")
 	attachCmd := flag.String("attach", "echo Attached.", "command to run on attach")
 	detachCmd := flag.String("detach", "echo Detached.", "command to run on detach")
 

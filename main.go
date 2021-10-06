@@ -37,7 +37,7 @@ func main() {
 	}
 	productnum, err := strconv.ParseUint(*usbproduct, 16, 32)
 	if err != nil {
-		log.Fatal("error parsing -v:", err)
+		log.Fatal("error parsing -p:", err)
 	}
 
 	u := udev.Udev{}
